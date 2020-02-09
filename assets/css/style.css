@@ -33,7 +33,7 @@ body {
 /*_________________________________________________________________*/
 /*TEXTOS*/
 h1 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
   line-height: 80px;
   font-family: 'Montserrat'sans-serif;
@@ -174,8 +174,8 @@ i {
 
 @media (max-width: 575.98px) {
   #hero h1 {
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 30px;
+    line-height: 30px;
   }
 }
 
@@ -339,13 +339,13 @@ i {
 
 #Contacto h3 {
     font-size: 50px;
-    padding: 1.5rem;
+    padding: 3rem;
     font-family: 'Caveat', cursive;
     line-height: 50px;
 }
   
 .form-inline {
-  padding-bottom: 3rem;
+  padding-bottom: 7rem;
 }
 
 .btn {
