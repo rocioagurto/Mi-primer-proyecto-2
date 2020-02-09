@@ -1,0 +1,407 @@
+* {
+  top: 0;
+
+  left: 0;
+  text-align: center;
+  box-sizing: border-box;
+
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Muli', sans-serif;
+  font-family: 'Caveat', cursive;
+  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contenedor {
+  width: 98%;
+  margin: auto;
+}
+
+.content {
+  flex: 1;
+}
+
+/*_________________________________________________________________*/
+/*TEXTOS*/
+h1 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 80px;
+  font-family: 'Montserrat'sans-serif;
+}
+
+h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  font-family: 'Caveat', cursive;
+}
+
+h6 {
+  font-size: 18px;
+  color: #999999;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/*____________________________________________________________________*/
+/*MENU*/
+/*hamburguesa*/
+.navbar-toggler {
+  font-size: 30px;
+  color: #ffffff;
+  text-align: right;
+}
+
+/* si queremos que aparezca un marco que rodee la hamburqueza al presionar*/
+.navbar-toggler:focus {
+  outline: none;
+}
+
+
+i {
+  font-size: 20px;
+  color: white;
+}
+
+.navbar {
+  background: #000;
+  box-shadow: 0 2px 4px 0;
+  width: 100vw;
+
+}
+
+.navbar-nav p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+.nav-link {
+  color: #fff;
+  font-family: 'Muli', sans-serif;
+  font-size: 17px;
+}
+
+/*elegir color que quiero en link al momento de presionarlo*/
+.nav-link:hover {
+  text-decoration: none;
+  color: #afb4ad;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/*logo o imagen pequeña que va en el nav*/
+.navbar-brand {
+  color: #ffff;
+}
+
+/*Tamaño logo nav*/
+.logo-brand {
+  min-width: 40px;
+  max-width: 30px;
+  color: #ffffff;
+}
+
+/*___________________________________________________________________*/
+/*IMAGEN CENTRAL Y SU CONTENIDO*/
+/*Imagen*/
+#hero {
+  background-image: url(../img/favorita.jpg);
+  background-size: cover;
+  background-position: initial;
+  padding-top: 70px;
+  color: #ffffff;
+  width: 100vw;
+  height: 60vh;
+  border-bottom: 1px solid black;
+  padding-bottom: 0;
+}
+
+.btn {
+  font-size: 14px;
+  padding: 6px 20px;
+  min-width: 100px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.btn-light {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #1a1a1a1a;
+}
+
+.btn i {
+  font-size: 14px;
+  margin-left: 6px;
+}
+
+/*margin top del bottom (entrar)*/
+.topmargin-xs {
+  margin-top: 15px;
+}
+
+.topmargin-sm {
+  margin-top: 30px;
+}
+
+.topmargin-lg {
+  margin-top: 60px;
+}
+
+/*Caracteristicas del texto imagen principal*/
+#hero h1 {
+  padding-top: 100px;
+  font-size: 60px;
+  font-variant: normal;
+  align-items: center;
+  text-shadow: 7px 7px 5px #000;
+  color: #fff
+}
+
+@media (max-width: 575.98px) {
+  #hero h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #hero h1 {
+    font-size: 60px;
+    line-height: normal;
+  }
+}
+
+#hero h6 {
+  color: #ffffff;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px #000;
+  margin-top: auto;
+}
+
+@media (max-width: 575.98px) {
+  #hero h6 {
+    font-size: 16px;
+    line-height: 15px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #hero h6 {
+    font-size: 20px;
+    line-height: 5px;
+  }
+}
+
+/*________________________________________________________________*/
+/*SOBRE MI*/
+#Sobremi h2 {
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  font-size: 50px;
+}
+
+#Sobremi {
+  padding-top: 0;
+  margin-top: auto;
+}
+
+#Sobremi p {
+  text-align: justify;
+}
+
+
+@media (max-width: 576px) {
+  .row p,
+  #Sobremi h2,
+  hr {
+  ;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+  #Sobremi h2 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #Sobremi h2 {
+    font-size: 50px;
+  }
+}
+
+
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  footer {
+    margin-top: -80px;
+  }
+}
+
+
+
+
+
+@media(max-width:1200px){
+  .carrusel {
+    display: none;
+  
+  }
+}
+
+
+
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.container hr {
+  border: 1px solid #000000;
+    width: 100%
+}
+.carousel-indicators {
+  top: 320px;
+}
+
+.carousel-indicators li {
+  background: black;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  border: 0;
+  
+}
+
+
+#Actividades h5 {
+  font-family: 'Titillium Web', sans-serif;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+
+.main__titulo {
+  margin: 40px;
+  margin-left: 60px;
+  font-size: 50px;
+  font-family: 'Caveat', cursive;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.main__card-deck {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.main__card-deck .video {
+  border: none;
+}
+
+
+@media(max-width:767px){
+  .section__titulo{
+    text-align: center;
+  }
+}
+
+@media(max-width:576px){
+  .section__titulo{
+    text-align: center;
+  
+
+  }
+
+}
+
+
+.formulario {
+  background-color: lightgray;
+}
+
+#Contacto h3 {
+    font-size: 50px;
+    padding: 1.5rem;
+    font-family: 'Caveat', cursive;
+    line-height: 50px;
+}
+  
+.form-inline {
+  padding-bottom: 3rem;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  padding: 0;
+  align-items: center;
+}
+
+.container-fluid {
+  width: 100vw;
+  margin: auto;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+footer ul {
+  display: flex;
+  margin-bottom: 25px;
+  list-style: none;
+  margin-top: 12px;
+}
+
+footer ul li {
+  margin-right: 0;
+}
+
+footer ul li a {
+  color: #fff;
+  font-size: 2rem;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 1023px) {
+  footer {
+    position: fixed;
+    position: relative;
+    
+  }
+}
+
+.container-fluid footer a:hover {
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+}
